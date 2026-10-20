@@ -1,0 +1,6 @@
+# outputs the examples write
+*.txt
+*.srt
+!requirements.txt
+__pycache__/
+node_modules/

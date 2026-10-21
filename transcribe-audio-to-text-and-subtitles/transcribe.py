@@ -15,7 +15,7 @@ from pathlib import Path
 
 from apify_client import ApifyClient
 
-ACTOR = "canopy_ne3/audio-video-transcription"
+ACTOR = "wrenkit/audio-video-transcription"
 
 
 def main(urls: list[str]) -> int:

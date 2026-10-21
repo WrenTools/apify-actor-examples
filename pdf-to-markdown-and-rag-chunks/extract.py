@@ -16,7 +16,7 @@ from pathlib import Path
 
 from apify_client import ApifyClient
 
-ACTOR = "canopy_ne3/pdf-text-markdown-extractor"
+ACTOR = "wrenkit/pdf-text-markdown-extractor"
 
 
 def main(urls: list[str]) -> int:

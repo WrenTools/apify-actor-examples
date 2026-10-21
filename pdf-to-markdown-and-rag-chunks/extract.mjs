@@ -8,7 +8,7 @@
 import { writeFile } from 'node:fs/promises';
 import { parse } from 'node:path';
 
-const ACTOR = 'canopy_ne3~pdf-text-markdown-extractor';
+const ACTOR = 'wrenkit~pdf-text-markdown-extractor';
 const urls = process.argv.slice(2);
 if (urls.length === 0) {
     console.error('usage: node extract.mjs <PDF URL> [...]');

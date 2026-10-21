@@ -8,7 +8,7 @@
 // the most non-empty fields is kept. Writes merged.csv in the current folder.
 import { writeFile } from 'node:fs/promises';
 
-const ACTOR = 'canopy_ne3~dataset-merge-dedup';
+const ACTOR = 'wrenkit~dataset-merge-dedup';
 const urls = process.argv.slice(2);
 if (urls.length === 0) {
     console.error('usage: node dedup.mjs <file URL> [...]');

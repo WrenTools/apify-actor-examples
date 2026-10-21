@@ -1,10 +1,10 @@
 # Transcribe audio and video files to text and subtitles (Python and Node)
 
 This example sends links to audio or video files to the
-[Audio & Video Transcription](https://apify.com/canopy_ne3/audio-video-transcription) Actor on Apify and saves, for
+[Audio & Video Transcription](https://apify.com/wrenkit/audio-video-transcription) Actor on Apify and saves, for
 each file, the transcript as `.txt` and subtitles as `.srt`. It is about 50 lines in either language.
 
-**Disclosure:** we built and sell that Actor (Apify account `canopy_ne3`), and this example was written with AI
+**Disclosure:** we built and sell that Actor (Apify account `wrenkit`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
 ## What the Actor does
@@ -33,7 +33,7 @@ python transcribe.py https://example.com/interview.mp3 https://example.com/lectu
 run's dataset: one item per file, in the order you gave them.
 
 ```python
-run = client.actor("canopy_ne3/audio-video-transcription").call(
+run = client.actor("wrenkit/audio-video-transcription").call(
     run_input={"fileUrls": urls, "language": "auto", "subtitleFormats": ["srt"]},
     max_total_charge_usd=Decimal("1.00"),
 )
@@ -49,7 +49,7 @@ APIFY_TOKEN=<your token> node transcribe.mjs https://example.com/interview.mp3
 
 [`transcribe.mjs`](transcribe.mjs) uses Apify's `run-sync-get-dataset-items` endpoint, which starts the run, waits
 for it and returns the results in one HTTP call. That endpoint answers HTTP 408 if the run takes more than 300 seconds, so keep it
-to files up to about 8 minutes in total (the Actor transcribes about 2 minutes of audio per minute of run time). For longer files, start the run with `POST /v2/acts/canopy_ne3~audio-video-transcription/runs`
+to files up to about 8 minutes in total (the Actor transcribes about 2 minutes of audio per minute of run time). For longer files, start the run with `POST /v2/acts/wrenkit~audio-video-transcription/runs`
 and poll it, or use the Python client, which waits for you.
 
 ## Output

@@ -1,11 +1,11 @@
 # Turn PDFs into Markdown and RAG-ready chunks (Python and Node)
 
 This example sends links to PDF files to the
-[PDF to Text & Markdown Extractor](https://apify.com/canopy_ne3/pdf-text-markdown-extractor) Actor on Apify and
+[PDF to Text & Markdown Extractor](https://apify.com/wrenkit/pdf-text-markdown-extractor) Actor on Apify and
 saves, for each PDF, its Markdown as `.md`, plus one `chunks.jsonl` with a chunk per line that you can load into a
 vector store. It is about 50 lines in either language.
 
-**Disclosure:** we built and sell that Actor (Apify account `canopy_ne3`), and this example was written with AI
+**Disclosure:** we built and sell that Actor (Apify account `wrenkit`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
 ## What the Actor does
@@ -35,7 +35,7 @@ python extract.py https://example.com/report.pdf https://example.com/manual.pdf
 dataset: one item per PDF, in the order you gave them.
 
 ```python
-run = client.actor("canopy_ne3/pdf-text-markdown-extractor").call(
+run = client.actor("wrenkit/pdf-text-markdown-extractor").call(
     run_input={"pdfUrls": urls, "outputFormat": "markdown", "chunkSize": 1500, "chunkOverlap": 200},
     max_total_charge_usd=Decimal("1.00"),
 )
@@ -53,7 +53,7 @@ APIFY_TOKEN=<your token> node extract.mjs https://example.com/report.pdf
 [`extract.mjs`](extract.mjs) uses Apify's `run-sync-get-dataset-items` endpoint, which starts the run, waits for it
 and returns the results in one HTTP call. That endpoint answers HTTP 408 if the run takes more than 300 seconds. That
 is plenty for a few dozen typical PDFs; for hundreds, start the run with
-`POST /v2/acts/canopy_ne3~pdf-text-markdown-extractor/runs` and poll it, or use the Python client, which waits for
+`POST /v2/acts/wrenkit~pdf-text-markdown-extractor/runs` and poll it, or use the Python client, which waits for
 you.
 
 ## Output
@@ -105,7 +105,7 @@ a file it cannot pay for and extracts only the pages the remainder covers.
 ## Limits
 
 - No OCR: scanned pages come back empty and are listed in `pagesWithoutText`. For those, the same publisher's
-  [Scanned PDF & Image OCR](https://apify.com/canopy_ne3/scanned-pdf-image-ocr) Actor reads the page images.
+  [Scanned PDF & Image OCR](https://apify.com/wrenkit/scanned-pdf-image-ocr) Actor reads the page images.
 - Tables come out as lines of text; their cell structure is not rebuilt. Multi-column layouts follow pdfminer's
   reading order, which is usually but not always right.
 - Headings are inferred from font size, so a document that sets its headings in body-size bold reads as plain text.

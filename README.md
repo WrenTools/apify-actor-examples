@@ -12,6 +12,9 @@ is one task, with a Python and a Node version and a README that explains the out
 **Disclosure:** we built and sell the Actors these examples call. The examples are written with AI assistance, and
 each one is run against the live Actor before it is published here.
 
+Also by Wrenkit: [Offline OCR: Copy Text from Screen](offline-ocr/), a Chrome extension that copies the text
+from any part of the screen, read on your own computer.
+
 Issues and questions about an example are welcome in this repository's Issues.
 
 The example code is under the MIT licence (`LICENSE`).

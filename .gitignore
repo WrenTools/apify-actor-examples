@@ -2,5 +2,7 @@
 *.txt
 *.srt
 !requirements.txt
+!download-files-from-a-list-of-links/links.txt
+files/
 __pycache__/
 node_modules/

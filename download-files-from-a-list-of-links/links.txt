@@ -1,0 +1,7 @@
+# Six manuals for made-up tools, hosted for this example. Replace these with your own links, one per line.
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-block-plane.pdf
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-bench-chisels.pdf
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-coping-saw.pdf
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-marking-gauge.pdf
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-bandsaw.pdf
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/manual-hand-drill.pdf

@@ -1,6 +1,6 @@
 # Offline OCR privacy policy
 
-*Offline OCR: Copy Text from Screen, a Chrome extension by Wrenkit. Effective 21 October 2026.*
+*Offline OCR: Copy Text from Screen, a Chrome extension by WrenTools. Effective 21 October 2026.*
 
 **In short: the extension reads text on your own computer, keeps nothing, and sends nothing anywhere.**
 
@@ -39,4 +39,4 @@ effective date.
 
 ---
 
-Questions: Wrenkit, [sah.assetholding@gmail.com](mailto:sah.assetholding@gmail.com).
+Questions: WrenTools, [sah.assetholding@gmail.com](mailto:sah.assetholding@gmail.com).

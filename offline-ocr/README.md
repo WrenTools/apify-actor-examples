@@ -1,6 +1,6 @@
 # Offline OCR: Copy Text from Screen
 
-A Chrome extension by Wrenkit. Select any part of a page and copy its text. The OCR runs on your own computer;
+A Chrome extension by WrenTools. Select any part of a page and copy its text. The OCR runs on your own computer;
 nothing is uploaded.
 
 Copy text you can't select: words in a picture, a paused video, a slide, a chart, a screenshot of an error.

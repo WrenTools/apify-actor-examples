@@ -1,0 +1,3 @@
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/blog-shavings-feed.xml
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/blog-benchlog.html
+https://api.apify.com/v2/key-value-stores/uM2zEXblvgf0s1cES/records/blog-grain-feed.json

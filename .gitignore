@@ -3,6 +3,8 @@
 *.srt
 !requirements.txt
 !download-files-from-a-list-of-links/links.txt
+!rss-feeds-to-a-spreadsheet/feeds.txt
+posts.csv
 files/
 __pycache__/
 node_modules/

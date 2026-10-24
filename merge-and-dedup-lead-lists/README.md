@@ -54,6 +54,8 @@ APIFY_TOKEN=<your token> node dedup.mjs https://example.com/crm-export.csv https
 waits for it and returns the merged rows as CSV in one HTTP call. That endpoint answers HTTP 408 if the run takes more
 than 300 seconds; for very large merges, start the run with `POST /v2/acts/wrentools~dataset-merge-dedup/runs` and
 poll it, or use the Python client, which waits for you.
+It writes the bytes Apify sends, so its `merged.csv` is the same file the Python example writes, starting with
+the UTF-8 byte order mark that Excel needs to show accented names correctly.
 
 ## Output
 

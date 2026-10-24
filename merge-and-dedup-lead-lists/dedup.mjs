@@ -38,6 +38,8 @@ if (!response.ok) {
     console.error(`run failed: HTTP ${response.status} ${await response.text()}`);
     process.exit(1);
 }
-const csv = await response.text();
-await writeFile('merged.csv', csv, 'utf8');
-console.log(`wrote merged.csv (${csv.length} characters)`);
+// The bytes as Apify sent them: its CSV starts with a UTF-8 byte order mark, so Excel reads accented names
+// correctly. response.text() would drop that mark.
+const csv = Buffer.from(await response.arrayBuffer());
+await writeFile('merged.csv', csv);
+console.log(`wrote merged.csv (${csv.length} bytes)`);

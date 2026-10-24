@@ -7,6 +7,9 @@ each file, the transcript as `.txt` and subtitles as `.srt`. It is about 50 line
 **Disclosure:** we built and sell that Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Video:** a 90-second walkthrough of this example and the Actor is on YouTube: https://youtu.be/QKpCpwUyqCQ
+(narrated by a synthetic voice).
+
 ## What the Actor does
 
 - Runs OpenAI's Whisper speech model (`base`, through faster-whisper) inside the run, so your files are not sent to a

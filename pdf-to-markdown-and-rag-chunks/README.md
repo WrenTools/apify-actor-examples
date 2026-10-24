@@ -105,7 +105,7 @@ a file it cannot pay for and extracts only the pages the remainder covers.
 ## Limits
 
 - No OCR: scanned pages come back empty and are listed in `pagesWithoutText`. For those, the same publisher's
-  [Scanned PDF & Image OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) Actor reads the page images.
+  [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) Actor reads the page images ([example](../ocr-scanned-pdfs-and-images/)).
 - Tables come out as lines of text; their cell structure is not rebuilt. Multi-column layouts follow pdfminer's
   reading order, which is usually but not always right.
 - Headings are inferred from font size, so a document that sets its headings in body-size bold reads as plain text.

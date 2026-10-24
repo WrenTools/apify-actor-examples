@@ -15,7 +15,7 @@ from pathlib import Path
 
 from apify_client import ApifyClient
 
-ACTOR = "wrenkit/dataset-merge-dedup"
+ACTOR = "wrentools/dataset-merge-dedup"
 
 
 def main(urls: list[str]) -> int:

@@ -1,11 +1,11 @@
 # Merge lead lists from CSV, JSON and Excel files and remove duplicates (Python and Node)
 
 This example sends links to two or more files (CSV, TSV, JSON, JSON Lines or Excel) to the
-[Merge & Dedup Datasets](https://apify.com/wrenkit/dataset-merge-dedup) Actor on Apify, which merges them, removes
+[Merge & Dedup Datasets](https://apify.com/wrentools/dataset-merge-dedup) Actor on Apify, which merges them, removes
 the rows whose email is already in the list, and keeps the most complete copy of each. The example saves the result
 as `merged.csv`. It is about 50 lines in either language.
 
-**Disclosure:** we built and sell that Actor (Apify account `wrenkit`), and this example was written with AI
+**Disclosure:** we built and sell that Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
 ## What the Actor does
@@ -36,7 +36,7 @@ python dedup.py https://example.com/crm-export.csv https://example.com/signups.j
 `SUMMARY` record:
 
 ```python
-run = client.actor("wrenkit/dataset-merge-dedup").call(
+run = client.actor("wrentools/dataset-merge-dedup").call(
     run_input={"fileUrls": urls, "dedupFields": ["email"], "keep": "mostComplete", "addSourceField": "_source"},
     max_total_charge_usd=Decimal("1.00"),
 )
@@ -52,7 +52,7 @@ APIFY_TOKEN=<your token> node dedup.mjs https://example.com/crm-export.csv https
 
 [`dedup.mjs`](dedup.mjs) uses Apify's `run-sync-get-dataset-items` endpoint with `format=csv`, which starts the run,
 waits for it and returns the merged rows as CSV in one HTTP call. That endpoint answers HTTP 408 if the run takes more
-than 300 seconds; for very large merges, start the run with `POST /v2/acts/wrenkit~dataset-merge-dedup/runs` and
+than 300 seconds; for very large merges, start the run with `POST /v2/acts/wrentools~dataset-merge-dedup/runs` and
 poll it, or use the Python client, which waits for you.
 
 ## Output

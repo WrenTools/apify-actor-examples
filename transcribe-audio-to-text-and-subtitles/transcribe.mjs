@@ -7,7 +7,7 @@
 import { writeFile } from 'node:fs/promises';
 import { parse } from 'node:path';
 
-const ACTOR = 'wrenkit~audio-video-transcription';
+const ACTOR = 'wrentools~audio-video-transcription';
 const urls = process.argv.slice(2);
 if (urls.length === 0) {
     console.error('usage: node transcribe.mjs <audio or video URL> [...]');

@@ -30,6 +30,6 @@ the [privacy policy](privacy.md) says what each one is for.
 
 ## Where to get it
 
-It has not been published on the Chrome Web Store yet. This page will link to it once it is.
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/mfaolaapfbdmfilfgjgcpkdgfimljdpj).
 
 Questions and problems: [sah.assetholding@gmail.com](mailto:sah.assetholding@gmail.com).

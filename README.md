@@ -13,6 +13,7 @@ is one task, with a Python and a Node version and a README that explains the out
 | [Download every file from a list of links into one folder, with checksums](download-files-from-a-list-of-links/) | [Bulk File Downloader](https://apify.com/wrentools/bulk-file-downloader) |
 | [Turn RSS, Atom and JSON feeds into one spreadsheet of posts](rss-feeds-to-a-spreadsheet/) | [RSS Feed Reader](https://apify.com/wrentools/rss-feed-reader) |
 | [Merge lead lists from CSV, JSON and Excel files and remove duplicates](merge-and-dedup-lead-lists/) | [Merge & Dedup Datasets](https://apify.com/wrentools/dataset-merge-dedup) |
+| [Check a sitemap for broken links](check-a-sitemap-for-broken-links/) | [Sitemap Validator](https://apify.com/wrentools/sitemap-validator) |
 
 **Disclosure:** we built and sell the Actors these examples call. The examples are written with AI assistance, and
 each one is run against the live Actor before it is published here.

@@ -28,6 +28,6 @@ nothing: no history, no account, no tracking. The [privacy policy](privacy.md) s
 
 ## Where to get it
 
-Install it from the Chrome Web Store (link added when it is live).
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/pegdoilhklakigmdkjhabmgfbejoklbi).
 
 Questions and problems: [sah.assetholding@gmail.com](mailto:sah.assetholding@gmail.com).

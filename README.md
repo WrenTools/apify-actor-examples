@@ -23,6 +23,10 @@ Also by WrenTools: [Offline OCR: Copy Text from Screen](offline-ocr/), a Chrome 
 from any part of the screen, read on your own computer. Get it on the
 [Chrome Web Store](https://chromewebstore.google.com/detail/mfaolaapfbdmfilfgjgcpkdgfimljdpj).
 
+And [Offline PDF to Text & Markdown (with OCR)](offline-pdf-text/), which turns a PDF into plain text or
+Markdown on your own computer, scanned pages included. Get it on the
+[Chrome Web Store](https://chromewebstore.google.com/detail/pegdoilhklakigmdkjhabmgfbejoklbi).
+
 Issues and questions about an example are welcome in this repository's Issues.
 
 The example code is under the MIT licence (`LICENSE`).

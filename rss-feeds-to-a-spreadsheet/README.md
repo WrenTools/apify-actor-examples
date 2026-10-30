@@ -9,6 +9,11 @@ are added.
 **Disclosure:** we built and sell the Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Why one shape for every feed:** our video [Parse RSS Feeds in Python (feedparser): 0 Errors, a Whole Blog Missing](https://youtu.be/RNjz96BzcS0)
+(narrated by a synthetic voice) shows a feed script that reports no errors while a whole blog is missing, and the
+[written version](https://wrentools.hashnode.dev/read-rss-atom-and-json-feed-in-python) walks through four
+feedparser traps with the code.
+
 ## Try it on our test feeds
 
 [`feeds.txt`](feeds.txt) lists three blogs about woodworking that we made up and host for this example. One publishes

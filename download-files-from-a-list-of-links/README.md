@@ -9,6 +9,11 @@ the folder. Run it again after fixing a link, or adding new ones, and it downloa
 **Disclosure:** we built and sell the Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Why the Actor checks each file:** our video [Download Files from a List of URLs in Python (urllib): 0 Errors, 4 Hidden Problems](https://youtu.be/Nir1dGETnDA)
+(narrated by a synthetic voice) shows four problems a plain script misses, and the
+[written version](https://wrentools.hashnode.dev/download-files-from-a-list-of-urls-in-python) walks through the
+Actor's checks with the code.
+
 ## Try it on our test links
 
 [`links.txt`](links.txt) lists six one-page manuals for made-up tools, which we wrote and host for this example. Each

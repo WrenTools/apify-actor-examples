@@ -8,6 +8,11 @@ as `merged.csv`. It is about 50 lines in either language.
 **Disclosure:** we built and sell that Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Why not just `drop_duplicates`:** our video [Merge Two CSV Files and Remove Duplicates in Python (pandas): Half the People Lost](https://youtu.be/ZSf5Cea3P60)
+(narrated by a synthetic voice) shows a pandas merge that reports no errors and loses half the people, and the
+[written version](https://wrentools.hashnode.dev/deduplicate-a-lead-list-in-python) walks through five ways
+`drop_duplicates` misses, with the code.
+
 ## What the Actor does
 
 - Merges any mix of up to 100 Apify datasets, up to 100 file URLs and rows pasted as JSON, and finds duplicates

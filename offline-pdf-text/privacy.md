@@ -1,8 +1,9 @@
 # Offline PDF to Text & Markdown privacy policy
 
-*Offline PDF to Text & Markdown (with OCR), a Chrome extension by WrenTools. Effective 25 October 2026.*
+*Offline PDF to Text & Markdown (with OCR), a Chrome extension by WrenTools. Effective 31 October 2026.*
 
-**In short: the extension reads PDFs on your own computer, keeps nothing, and sends nothing to us or anyone else.**
+**In short: the extension reads PDFs on your own computer and sends nothing to us or anyone else. The one thing it
+keeps is the language you last picked for scanned pages, on your computer.**
 
 ## What the extension handles
 
@@ -20,15 +21,22 @@ What happens to the PDF:
   recognition engine (Tesseract) built into the extension. It is discarded when you close the reader page.
 - It is never sent to us or to anyone else. The extension contains no code that contacts a server of ours or anyone
   else's; reading a dropped PDF works with your network switched off.
-- Nothing is stored: not the PDF, not the text, not a history. The extension has no account, no analytics and no
-  tracking.
+- The PDF is never stored, and neither is its name, its text or the address it came from. No history is kept. The
+  extension has no account, no analytics and no tracking.
 - The text is copied to your clipboard only when you press Copy, and saved as a file only when you press Save.
 - A PDF that needs a password is not opened, and a PDF whose owner does not allow copying its text is not read.
+
+## What the extension keeps
+
+Only the language you last picked for scanned pages, so the next PDF you open starts in it. It is kept in Chrome's
+storage for the extension on this computer, is not copied to your other browsers, and is removed when you remove the
+extension. If you never pick a language, nothing is kept. Nothing else is ever stored.
 
 ## Permissions
 
 - `activeTab`: lets the extension see the address of the current tab, only after you click its button or press its
   shortcut, so that it can open the PDF shown there.
+- `storage`: lets the extension remember the language you last picked for scanned pages, on this computer.
 
 It has no access to any website until you use it, none to your browsing history, and no other permission.
 

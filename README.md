@@ -6,6 +6,7 @@ is one task, with a Python and a Node version and a README that explains the out
 | Example | Actor |
 |---|---|
 | [Transcribe audio and video files to text and subtitles](transcribe-audio-to-text-and-subtitles/) | [Audio & Video Transcription](https://apify.com/wrentools/audio-video-transcription) |
+| [Find every moment a word is said in a recording](find-a-word-in-a-recording/) (Python) | [Audio & Video Transcription](https://apify.com/wrentools/audio-video-transcription) |
 | [Turn PDFs into Markdown and RAG-ready chunks](pdf-to-markdown-and-rag-chunks/) | [PDF to Text & Markdown Extractor](https://apify.com/wrentools/pdf-text-markdown-extractor) |
 | [Read the text in scanned PDFs and images with OCR](ocr-scanned-pdfs-and-images/) | [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) |
 | [Read the text in every new scan in a folder, each morning](ocr-new-scans-every-morning/) (Python) | [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) |

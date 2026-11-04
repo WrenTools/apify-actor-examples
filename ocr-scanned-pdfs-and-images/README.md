@@ -23,6 +23,9 @@ It costs **$0.003 per page read**, with no start fee and nothing for files that 
 also need an [Apify account](https://console.apify.com/sign-up) and its API token (Console > Settings > API &
 Integrations).
 
+To read every new scan in a folder each weekday morning, once each, with a review list of the pages to check, see
+[OCR new scans every morning](../ocr-new-scans-every-morning/).
+
 ## Python
 
 ```bash

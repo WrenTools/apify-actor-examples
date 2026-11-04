@@ -8,6 +8,7 @@ is one task, with a Python and a Node version and a README that explains the out
 | [Transcribe audio and video files to text and subtitles](transcribe-audio-to-text-and-subtitles/) | [Audio & Video Transcription](https://apify.com/wrentools/audio-video-transcription) |
 | [Turn PDFs into Markdown and RAG-ready chunks](pdf-to-markdown-and-rag-chunks/) | [PDF to Text & Markdown Extractor](https://apify.com/wrentools/pdf-text-markdown-extractor) |
 | [Read the text in scanned PDFs and images with OCR](ocr-scanned-pdfs-and-images/) | [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) |
+| [Read the text in every new scan in a folder, each morning](ocr-new-scans-every-morning/) (Python) | [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) |
 | [Pull the text out of a folder of screenshots into one searchable CSV](text-from-a-folder-of-screenshots/) | [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) |
 | [Turn podcast episodes into searchable transcripts](podcast-episodes-to-searchable-transcripts/) | [RSS Feed Reader](https://apify.com/wrentools/rss-feed-reader) and [Audio & Video Transcription](https://apify.com/wrentools/audio-video-transcription) |
 | [Download every file from a list of links into one folder, with checksums](download-files-from-a-list-of-links/) | [Bulk File Downloader](https://apify.com/wrentools/bulk-file-downloader) |

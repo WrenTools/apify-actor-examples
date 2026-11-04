@@ -16,6 +16,7 @@ is one task, with a Python and a Node version and a README that explains the out
 | [Merge lead lists from CSV, JSON and Excel files and remove duplicates](merge-and-dedup-lead-lists/) | [Merge & Dedup Datasets](https://apify.com/wrentools/dataset-merge-dedup) |
 | [Check a sitemap for broken links](check-a-sitemap-for-broken-links/) | [Sitemap Validator](https://apify.com/wrentools/sitemap-validator) |
 | [Run an SEO check on your own site](seo-check-your-own-site/) | [Own-Site SEO Audit](https://apify.com/wrentools/own-site-seo-audit) |
+| [Clean up and validate the phone numbers in a spreadsheet](clean-up-and-validate-phone-numbers/) (Python) | [Phone Number Validator](https://apify.com/wrentools/phone-number-validator-offline) |
 
 **Disclosure:** we built and sell the Actors these examples call. The examples are written with AI assistance, and
 each one is run against the live Actor before it is published here.

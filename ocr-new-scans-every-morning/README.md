@@ -9,6 +9,12 @@ It is about 95 lines of Python, with no packages to install.
 **Disclosure:** we built and sell that Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Watch it first:** our video
+[Automatically OCR New Scans in a Folder with Python: API Token, Fingerprints and cron](https://youtu.be/jPRhSV-lyek)
+(narrated by a synthetic voice) runs this script on a made-up office's scan folder, morning after morning, and our post
+on [OCR of a scanned PDF at 300 dpi](https://wrentools.hashnode.dev/ocr-a-scanned-pdf-in-python-at-300-dpi) shows how
+a scanned page is read and which resolution to use.
+
 For a one-off list of files, the shorter [OCR example](../ocr-scanned-pdfs-and-images/) is simpler.
 
 ## How it knows which scans are new

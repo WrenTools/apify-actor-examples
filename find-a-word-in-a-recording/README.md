@@ -9,6 +9,12 @@ time for every word, saves those words beside the recording, and searches the sa
 **Disclosure:** we built and sell that Actor (Apify account `wrentools`), and this example was written with AI
 assistance and then run against the live Actor before publishing.
 
+**Watch it first:** our video
+[Search Audio for a Word with Python: Word-Level Timestamps and a Link to the Exact Second](https://youtu.be/sua_Nb_Fwfo)
+(narrated by a synthetic voice) walks through this script on the made-up bread class, and our post on
+[transcribing audio and video in Python](https://wrentools.hashnode.dev/transcribe-audio-and-video-files-to-text-and-srt-subtitles-with-about-50-lines-of-python)
+shows the Actor's other outputs: plain text and `.srt` subtitles.
+
 For a transcript and subtitle files rather than a search, the shorter
 [transcription example](../transcribe-audio-to-text-and-subtitles/) is simpler.
 

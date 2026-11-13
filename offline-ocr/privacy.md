@@ -10,7 +10,8 @@ anywhere.**
 When you click its button, press its shortcut or choose "Copy text from this image" on a picture, and only then, the
 extension takes a picture of the tab in front of you so that it can read the text in the area you select or in that
 picture. On its image page, it reads the image you paste, drop or choose. Apart from your settings (below), that
-picture or image is the only data it handles.
+picture or image is the only data it reads; to find a picture you right-clicked, it uses that picture's address on
+the page, which it neither keeps nor sends.
 
 - It is read in your computer's memory by the text recognition engine (Tesseract) built into the extension, and
   discarded when the reading is done.

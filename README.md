@@ -22,8 +22,8 @@ is one task, with a Python and a Node version and a README that explains the out
 **Disclosure:** we built and sell the Actors these examples call. The examples are written with AI assistance, and
 each one is run against the live Actor before it is published here.
 
-Also by WrenTools: [Offline OCR: Copy Text from Screen](offline-ocr/), a Chrome extension that copies the text
-from any part of the screen, read on your own computer. Get it on the
+Also by WrenTools: [Wren Offline OCR: Copy Text from Screen](offline-ocr/), a Chrome extension that copies the
+text from a part of a web page you select, or from a picture you choose, read on your own computer. Get it on the
 [Chrome Web Store](https://chromewebstore.google.com/detail/mfaolaapfbdmfilfgjgcpkdgfimljdpj).
 
 And [Offline PDF to Text & Markdown (with OCR)](offline-pdf-text/), which turns a PDF into plain text or

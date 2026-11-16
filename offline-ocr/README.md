@@ -45,6 +45,9 @@ computer, and never what you read or where. No history, no account, no tracking.
 - The download is about 31 MB, because the recognition engine and its language models are inside it.
 - Its sister extension, [Offline PDF to Text & Markdown (with OCR)](../offline-pdf-text/README.md), turns a PDF into
   plain text or Markdown on your own computer, scanned pages included.
+- For many images or scanned PDFs at once, or OCR in a pipeline your code runs, there is our
+  [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) Actor on the Apify Store. It reads them on Apify's servers,
+  so the files are sent there, and costs $0.003 for each image or page it reads.
 
 ## Where to get it
 

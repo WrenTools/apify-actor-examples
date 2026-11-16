@@ -45,6 +45,10 @@ no account, no tracking. The [privacy policy](privacy.md) says what it handles.
 - The download is about 26.5 MiB, because the PDF engine, the recognition engine and its 13 language models are inside
   it.
 - Its sister extension, [Wren Offline OCR](../offline-ocr/README.md), copies text from a part of a web page you select, or from a picture you choose.
+- For many PDFs at once, or a pipeline your code runs, there is our
+  [PDF to Text & Markdown Extractor](https://apify.com/wrentools/pdf-text-markdown-extractor) Actor on the Apify Store. It reads PDFs on Apify's
+  servers, so the files are sent there, and costs $0.002 a PDF plus $0.0001 a page. It does not read scanned pages;
+  our [Image & Scanned PDF OCR](https://apify.com/wrentools/scanned-pdf-image-ocr) Actor does, at $0.003 a page.
 
 ## Where to get it
 

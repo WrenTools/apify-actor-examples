@@ -3,7 +3,7 @@
 A Chrome extension by WrenTools. Turn a PDF into plain text or Markdown on your own computer, scanned pages included.
 No upload, no page limit, no account.
 
-Click the button (or press Alt+Shift+P) on a tab showing a PDF, and its reader opens beside it with the text. Anywhere
+Click the button (or press Alt+Shift+D) on a tab showing a PDF, and its reader opens beside it with the text. Anywhere
 else, it opens a page where you can choose or drop a PDF. Switch between plain text and Markdown, then Copy or Save it
 as a file.
 
@@ -42,8 +42,8 @@ no account, no tracking. The [privacy policy](privacy.md) says what it handles.
   Images are not rebuilt.
 - A word that has its own hyphen and is broken at the end of a line ("self-" then "selected") can come out joined.
 - A PDF that needs a password is not opened, and one whose owner does not allow copying its text is not read.
-- The download is about 26.5 MiB, because the PDF engine, the recognition engine and its 13 language models are inside
-  it.
+- The PDF engine, the recognition engine and its 13 language models are inside the extension, so the download is large
+  (under 30 MiB).
 - Its sister extension, [Wren Offline OCR](../offline-ocr/README.md), copies text from a part of a web page you select, or from a picture you choose.
 - For many PDFs at once, or a pipeline your code runs, there is our
   [PDF to Text & Markdown Extractor](https://apify.com/wrentools/pdf-text-markdown-extractor) Actor on the Apify Store. It reads PDFs on Apify's

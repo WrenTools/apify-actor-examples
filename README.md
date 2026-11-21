@@ -34,6 +34,8 @@ And [PDF Access Fixer](pdf-access-fixer/), our free, open-source (MIT) command-l
 
 And [Edit Inheritance for Confluence](edit-inheritance-for-confluence/), a Confluence Cloud app: new, moved and copied child pages inherit their parent page's edit restrictions, and follow when the parent's editors change. Its pages: [documentation](edit-inheritance-for-confluence/documentation.md), [support](edit-inheritance-for-confluence/support.md), [privacy](edit-inheritance-for-confluence/privacy.md) and [security](edit-inheritance-for-confluence/security.md).
 
+And [Keep Pages Sorted Alphabetically for Confluence](keep-pages-sorted-for-confluence/), a Confluence Cloud app: child pages stay sorted alphabetically, A to Z or Z to A, or by date, as pages are created, renamed, moved and restored. Its pages: [documentation](keep-pages-sorted-for-confluence/documentation.md), [support](keep-pages-sorted-for-confluence/support.md), [privacy](keep-pages-sorted-for-confluence/privacy.md) and [security](keep-pages-sorted-for-confluence/security.md).
+
 Issues and questions about an example are welcome in this repository's Issues.
 
 The example code is under the MIT licence (`LICENSE`).

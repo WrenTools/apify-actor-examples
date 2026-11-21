@@ -32,6 +32,8 @@ Markdown on your own computer, scanned pages included. Get it on the
 
 And [PDF Access Fixer](pdf-access-fixer/), our free, open-source (MIT) command-line tool that tags PDFs, including scans, on your own computer, so screen readers can follow them. It lives in this folder until it has its own repository.
 
+And [Edit Inheritance for Confluence](edit-inheritance-for-confluence/), a Confluence Cloud app: new, moved and copied child pages inherit their parent page's edit restrictions, and follow when the parent's editors change. Its pages: [documentation](edit-inheritance-for-confluence/documentation.md), [support](edit-inheritance-for-confluence/support.md), [privacy](edit-inheritance-for-confluence/privacy.md) and [security](edit-inheritance-for-confluence/security.md).
+
 Issues and questions about an example are welcome in this repository's Issues.
 
 The example code is under the MIT licence (`LICENSE`).

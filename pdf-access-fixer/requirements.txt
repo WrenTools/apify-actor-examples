@@ -1,0 +1,6 @@
+# The versions the tests and the round 17 measurement ran with.
+pikepdf==10.18.0
+pdfminer.six==20260107
+pypdfium2==5.15.2
+fonttools==4.68.0
+pillow==13.0.0

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-access-fixer"
+version = "0.1.0"
+description = "Make PDFs accessible offline, scanned ones included: OCR into a real text layer, then tags from a plan a person reviews."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pikepdf>=10.18",
+    "pdfminer.six==20260107",
+    "pypdfium2>=5.15.2",
+    "fonttools>=4.68",
+    "pillow>=11",
+]
+
+[project.scripts]
+pdf-access-fixer = "pdf_access_fixer.cli:main"
+
+[tool.setuptools]
+packages = ["pdf_access_fixer"]

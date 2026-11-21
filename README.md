@@ -30,6 +30,8 @@ And [Offline PDF to Text & Markdown (with OCR)](offline-pdf-text/), which turns 
 Markdown on your own computer, scanned pages included. Get it on the
 [Chrome Web Store](https://chromewebstore.google.com/detail/pegdoilhklakigmdkjhabmgfbejoklbi).
 
+And [PDF Access Fixer](pdf-access-fixer/), our free, open-source (MIT) command-line tool that tags PDFs, including scans, on your own computer, so screen readers can follow them. It lives in this folder until it has its own repository.
+
 Issues and questions about an example are welcome in this repository's Issues.
 
 The example code is under the MIT licence (`LICENSE`).

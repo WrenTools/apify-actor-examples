@@ -2,7 +2,7 @@
 
 ## Report a vulnerability
 
-Write to **support@sage50recovery.com** with the subject "Security": what you found, the steps to see it, and your
+Write to **support@brendenbushman.com** with the subject "Security": what you found, the steps to see it, and your
 site's address.
 We treat a security report as critical, so we answer within 24 hours, as on our support page.
 Please do not test against other customers' sites, and give us the time below to fix it before you publish.

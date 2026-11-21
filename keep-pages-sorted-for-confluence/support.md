@@ -1,6 +1,6 @@
 # Keep Pages Sorted Alphabetically for Confluence: support
 
-Write to **support@sage50recovery.com** with your site's address, the space key, and what you expected and saw.
+Write to **support@brendenbushman.com** with your site's address, the space key, and what you expected and saw.
 
 - We answer within 5 business days, and within 24 hours when Atlassian marks a request critical.
 - Security reports go to the same address, with the subject "Security", and we treat them as critical.

@@ -64,4 +64,4 @@ Within the first 21 days, Atlassian can re-link it to a reinstalled app, but onl
 
 ## Contact
 
-support@sage50recovery.com.
+support@brendenbushman.com.

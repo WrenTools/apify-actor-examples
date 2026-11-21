@@ -61,4 +61,4 @@ Atlassian can re-link it to a reinstalled app, but only if you ask.
 
 ## Contact
 
-support@sage50recovery.com
+support@brendenbushman.com

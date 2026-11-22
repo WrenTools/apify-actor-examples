@@ -159,6 +159,18 @@ This tool checks PDF/UA-1 with veraPDF, and the four county files above were als
 reviewers. It does not check WCAG conformance itself and does not fix contrast, so **it cannot tell you that a file
 meets Section 508**: a person has to check that.
 
+## ADA Title II
+
+The Justice Department's rule under Title II of the ADA (28 CFR 35.200) makes WCAG 2.1 Level AA the standard for the
+web content of US state and local governments, which includes the documents they post, such as PDFs. It applies from
+26 April 2027 to governments of 50,000 people or more, and from 26 April 2028 to smaller ones and to special districts,
+with limited exceptions, among them some PDFs posted before those dates
+([the Department's fact sheet](https://www.ada.gov/resources/2024-03-08-web-rule/) and
+[its April 2026 rule moving the dates](https://www.ada.gov/assets/pdfs/2026-ifr.pdf), read 22 November 2026).
+
+This tool does not check WCAG 2.1 AA itself (the review above was by AI reviewers), so **it cannot tell you that a
+file meets the Title II rule**: a person has to check that.
+
 ## Licence
 
 MIT. Tesseract (Apache-2.0) and veraPDF (GPLv3/MPLv2) are separate programs you install; they are not part of this

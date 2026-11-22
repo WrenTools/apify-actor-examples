@@ -42,7 +42,7 @@ computer, and never what you read or where. No history, no account, no tracking.
 - Made for printed and on-screen text, not handwriting.
 - Small text full of symbols (code, for example) can come out with a character wrong, so check it before you rely on
   it.
-- The download is about 31 MB, because the recognition engine and its language models are inside it.
+- The recognition engine and its language models are inside the extension, so the download is large (under 30 MiB).
 - Its sister extension, [Offline PDF to Text & Markdown (with OCR)](../offline-pdf-text/README.md), turns a PDF into
   plain text or Markdown on your own computer, scanned pages included.
 - For many images or scanned PDFs at once, or OCR in a pipeline your code runs, there is our

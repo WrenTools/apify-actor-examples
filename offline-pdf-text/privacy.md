@@ -1,6 +1,6 @@
 # Offline PDF to Text & Markdown privacy policy
 
-*Offline PDF to Text & Markdown (with OCR), a Chrome extension by WrenTools. Effective 31 October 2026.*
+*Offline PDF to Text & Markdown (with OCR), a Chrome extension by WrenTools. Effective 22 November 2026.*
 
 **In short: the extension reads PDFs on your own computer and sends nothing to us or anyone else. The one thing it
 keeps is the language you last picked for scanned pages, on your computer.**
@@ -29,6 +29,15 @@ What happens to the PDF:
 Only the language you last picked for scanned pages, so the next PDF you open starts in it. It is kept in Chrome's
 storage for the extension on this computer, is not copied to your other browsers, and is removed when you remove the
 extension. If you never pick a language, nothing is kept. Nothing else is ever stored.
+
+## Reporting a problem
+
+The bug icon at the top right of the reader page opens your own mail program with a message to us already written. The
+message lists only the extension and its version, your browser and its version, your system, Chrome's language, the
+language chosen for scanned pages, and the last error message the page showed. Nothing from your PDFs is in it: not
+their text, their names or the addresses they came from. The extension itself sends nothing: you read the message,
+change it if you wish, and send it or not. If you send it, we receive what your mail program sends (your email address
+and the message), and use it for nothing but the problem you reported.
 
 ## Permissions
 

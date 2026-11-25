@@ -1,5 +1,7 @@
 # PDF Access Fixer
 
+> **This tool has moved to its own repository: [WrenTools/pdf-access-fixer](https://github.com/WrenTools/pdf-access-fixer).** Get it, report problems and follow its changes there. This folder keeps the copy first published here on 2026-11-21 (version 0.1.0), so links to it keep working, but it is no longer updated.
+
 Make a PDF accessible to screen-reader users, offline, **including scanned PDFs**. This is PDF remediation: it fixes a
 file that already exists. It reads scanned pages with OCR into a real text layer, then tags the original file (headings, lists, tables, reading order, alt text, form-field labels)
 from a plan that a person reviews. The pages look the same afterwards.

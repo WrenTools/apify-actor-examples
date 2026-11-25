@@ -1,6 +1,6 @@
 # Wren OCR privacy policy
 
-*Wren Offline OCR: Copy Text from Screen, a Chrome extension by WrenTools. Effective 28 October 2026.*
+*Wren Offline OCR: Copy Text from Screen, a Chrome extension by WrenTools. Effective 22 November 2026.*
 
 **In short: the extension reads text on your own computer, remembers only your settings there, and sends nothing
 anywhere.**
@@ -27,6 +27,15 @@ The extension remembers three settings, so that the next reading starts the way 
 picked, and whether "Join lines into sentences" and "One line" are on. They are kept on your computer in Chrome's
 storage for the extension (not synced to your other browsers), never sent anywhere, and removed when you remove the
 extension. Nothing else is kept.
+
+## Reporting a problem
+
+The bug icon at the top right of the extension's page opens your own mail program with a message to us already
+written. The message lists only the extension and its version, your browser and its version, your system, Chrome's
+language, the language chosen for the text, and the last error message the page showed. Nothing from your pages,
+pictures or text is in it. The extension itself sends nothing: you read the message, change it if you wish, and send it
+or not. If you send it, we receive what your mail program sends (your email address and the message), and use it for
+nothing but the problem you reported.
 
 ## Permissions
 
